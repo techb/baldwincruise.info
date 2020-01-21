@@ -6,7 +6,6 @@ body {
 h1 {
 	font-size: 53px;
 	font-weight: bold;
-	/* text-shadow: rgb(82, 65, 0) 0px 0px 35px; */
 	color: #ffcaa1;
 }
 
@@ -97,9 +96,14 @@ h1 {
 	transform: scale(0.1, 1);
 }
 
+
 .hero-copy {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	padding-top: 12%;
+}
+
+.flip-clock-label {
+	display: none;
 }
