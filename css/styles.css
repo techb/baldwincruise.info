@@ -127,43 +127,55 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 500px;
 }
 #when h2 {
 	margin: 0 auto;
 }
 
 /* https://www.dyclassroom.com/web-project/design-a-simple-calendar-for-your-blog-and-website-using-html5-css3-and-javascript */
-#calendar {
-    width: 150px;
-    /* height: 190px; */
-    background-color: #ffcaa1;
-    color: rgb(34,16,0);
-    border-radius: 5%;
-    margin-top: 5%;
+.calendar-container {
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
-#calendar > p {
+.calendar {
+	width: 230px;
+	height: 140px;
+    background-color: #fff4eb;
+    color: rgb(34,16,0);
+    border-radius: 15%;
+	margin-top: 5%;
+}
+.calendar > p {
     font-family: Verdana, Arial, sans-serif;
     padding: 5px 0;
     margin: 0;
     color:rgb(34,16,0);
     text-align: center;
 }
-#calendar-day {
+.calendar-day {
     font-size: 16px;
 }
-#calendar-month-year {
+.calendar-month-year {
 	font-size: 14px;
 	padding-bottom: 2%;
 }
-#calendar-date {
+.calendar-date {
     font-size: 64px;
     padding-top: 10px;
-    padding-bottom: 0;
+	padding-bottom: 0;
+	margin: 0;
 }
-#calendar h4 {
+.calendar h4 {
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 0;
 	font-size: 22px;
+}
+
+.copy {
+	color: #ffcaa1;
+	font-size: 24px;
+	padding: 5%;
 }
