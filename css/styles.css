@@ -23,6 +23,7 @@ h1 {
 	flex-direction: column;
 	align-items: center;
 	height: 100vh;
+	overflow: hidden;
 }
 
 .top-menu {
@@ -71,11 +72,11 @@ h1 {
 	transform: scale(0.1, 1);
 }
 .btn:visited {
-	color: #db8e53;
+	color: #ffcaa1;
 }
 .btn:hover  {
 	letter-spacing: 2px;
-	color: #ffcaa1;
+	color: #f8e5d6;
 }
 .btn:hover::before {
 	opacity: 1;
@@ -106,4 +107,13 @@ h1 {
 
 .flip-clock-label {
 	display: none;
+}
+
+.bottom-grad {
+	background: rgb(34,16,0);
+	background: radial-gradient(ellipse at bottom, 
+		rgba(34,16,0,1) 15%, 
+		rgba(0,212,255,0) 70%);
+	width: 420%;
+	height: 100%;
 }
