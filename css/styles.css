@@ -8,6 +8,10 @@ h1 {
 	font-weight: bold;
 	color: #ffcaa1;
 }
+h2 {
+	font-size: 43px;
+	color: #ffcaa1;
+}
 
 .hero {
 	background:
@@ -111,9 +115,47 @@ h1 {
 
 .bottom-grad {
 	background: rgb(34,16,0);
-	background: radial-gradient(ellipse at bottom, 
-		rgba(34,16,0,1) 15%, 
+	background: radial-gradient(ellipse at bottom,
+		rgba(34,16,0,1) 15%,
 		rgba(0,212,255,0) 70%);
 	width: 420%;
 	height: 100%;
+}
+
+#when {
+	background: rgb(34,16,0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 500px;
+}
+#when h2 {
+	margin: 0 auto;
+}
+/* https://www.dyclassroom.com/web-project/design-a-simple-calendar-for-your-blog-and-website-using-html5-css3-and-javascript */
+#calendar {
+    width: 130px;
+    height: 180px;
+    background-color: #ffcaa1;
+    color: rgb(34,16,0);
+    border-radius: 5%;
+    /* box-shadow: 0 1px 1px 0 rgba(240, 210, 165, 0.4); */
+}
+#calendar > p {
+    font-family: Verdana, Arial, sans-serif;
+    padding: 10px 0;
+    margin: 0;
+    color:rgb(34,16,0);
+    text-align: center;
+}
+#calendar-day {
+    font-size: 16px;
+}
+#calendar-month-year {
+    font-size: 14px;
+}
+#calendar-date {
+    font-size: 64px;
+    padding-top: 10px;
+    padding-bottom: 0;
 }
