@@ -132,18 +132,19 @@ h2 {
 #when h2 {
 	margin: 0 auto;
 }
+
 /* https://www.dyclassroom.com/web-project/design-a-simple-calendar-for-your-blog-and-website-using-html5-css3-and-javascript */
 #calendar {
-    width: 130px;
-    height: 180px;
+    width: 150px;
+    /* height: 190px; */
     background-color: #ffcaa1;
     color: rgb(34,16,0);
     border-radius: 5%;
-    /* box-shadow: 0 1px 1px 0 rgba(240, 210, 165, 0.4); */
+    margin-top: 5%;
 }
 #calendar > p {
     font-family: Verdana, Arial, sans-serif;
-    padding: 10px 0;
+    padding: 5px 0;
     margin: 0;
     color:rgb(34,16,0);
     text-align: center;
@@ -152,10 +153,17 @@ h2 {
     font-size: 16px;
 }
 #calendar-month-year {
-    font-size: 14px;
+	font-size: 14px;
+	padding-bottom: 2%;
 }
 #calendar-date {
     font-size: 64px;
     padding-top: 10px;
     padding-bottom: 0;
+}
+#calendar h4 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 22px;
 }
