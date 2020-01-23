@@ -50,7 +50,7 @@ h2 {
 */
 .btn {
 	text-decoration: none;
-	color: #ffcaa1;
+	color: #fdb37a;
 	font-size: 18px;
 	font-weight: bold;
 	transition: all 0.3s;
@@ -76,7 +76,7 @@ h2 {
 	transform: scale(0.1, 1);
 }
 .btn:visited {
-	color: #ffcaa1;
+	color: #fdb37a;
 }
 .btn:hover  {
 	letter-spacing: 2px;
@@ -127,6 +127,7 @@ h2 {
 	flex-direction: column;
 	align-items: center;
 	padding: 5%;
+	height: 100vh;
 }
 .section h2 {
 	margin: 0 auto;
@@ -134,14 +135,74 @@ h2 {
 }
 
 #when {
-	background: rgb(34,16,0);
+	background-color: #330000;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%236b4000'/%3E%3Cstop offset='1' stop-color='%23330000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FA3' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FA3' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+#where {
+	height: 100vh;
+	color: rgb(34, 16, 0);
+	background: radial-gradient(circle at 90% 66%, rgba(25, 25, 25,0.06) 0%, rgba(25, 25, 25,0.06) 25%,rgba(23, 23, 23,0.06) 25%, rgba(23, 23, 23,0.06) 50%,rgba(20, 20, 20,0.06) 50%, rgba(20, 20, 20,0.06) 75%,rgba(18, 18, 18,0.06) 75%, rgba(18, 18, 18,0.06) 100%),radial-gradient(circle at 62% 23%, rgba(154, 154, 154,0.06) 0%, rgba(154, 154, 154,0.06) 25%,rgba(111, 111, 111,0.06) 25%, rgba(111, 111, 111,0.06) 50%,rgba(68, 68, 68,0.06) 50%, rgba(68, 68, 68,0.06) 75%,rgba(25, 25, 25,0.06) 75%, rgba(25, 25, 25,0.06) 100%),radial-gradient(circle at 47% 85%, rgba(97, 97, 97,0.06) 0%, rgba(97, 97, 97,0.06) 25%,rgba(130, 130, 130,0.06) 25%, rgba(130, 130, 130,0.06) 50%,rgba(162, 162, 162,0.06) 50%, rgba(162, 162, 162,0.06) 75%,rgba(195, 195, 195,0.06) 75%, rgba(195, 195, 195,0.06) 100%),radial-gradient(circle at 72% 0%, rgba(214, 214, 214,0.06) 0%, rgba(214, 214, 214,0.06) 25%,rgba(223, 223, 223,0.06) 25%, rgba(223, 223, 223,0.06) 50%,rgba(231, 231, 231,0.06) 50%, rgba(231, 231, 231,0.06) 75%,rgba(240, 240, 240,0.06) 75%, rgba(240, 240, 240,0.06) 100%),linear-gradient(90deg, rgb(34,16,0),#ffcaa1);
+	background-attachment: fixed;
+	background-size: cover;
+}
+#where h2 {
+	color: rgb(34, 16, 0);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.flavor-text {
+	padding-top: 2%;
+	font-size: 22px !important;
 }
 .depart-port {
-	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
+.depart-address {
+	width: 45%
+}
+.google-map {
+	width: 100%;
+	height: 100%;
+}
+.depart-info {
+	background-color: rgb(34, 16, 0, 0.5);
+	color: #ffcaa1;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.depart-info div {
+	margin: 0;
+	padding: 0;
+}
+.depart-info div ul {
+	list-style: none;
+	padding-inline-start: 25px;
+}
+.depart-info div ul li {
+	padding: 3% 0 3% 0;
+	border-bottom: 1px solid #ffcaa1;
+}
+.depart-info div ul li:first-child {
+	padding-top: 0;
+}
+.depart-info div ul li:last-child {
+	border-bottom: none;
+
+}
+.travel-info ul {
+	margin-bottom: 0;
+}
+.travel-info ul li:last-child {
+	padding-bottom: 0;
+}
+
 
 /* https://www.dyclassroom.com/web-project/design-a-simple-calendar-for-your-blog-and-website-using-html5-css3-and-javascript */
 .calendar-container {
@@ -187,7 +248,7 @@ h2 {
 
 .copy {
 	color: #ffcaa1;
-	font-size: 24px;
+	font-size: 22px;
 	margin: 5%;
 	width: 80%;
 }
