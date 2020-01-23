@@ -122,14 +122,25 @@ h2 {
 	height: 100%;
 }
 
-#when {
-	background: rgb(34,16,0);
+.section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 5%;
 }
-#when h2 {
+.section h2 {
 	margin: 0 auto;
+	padding-bottom: 5%;
+}
+
+#when {
+	background: rgb(34,16,0);
+}
+.depart-port {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 /* https://www.dyclassroom.com/web-project/design-a-simple-calendar-for-your-blog-and-website-using-html5-css3-and-javascript */
