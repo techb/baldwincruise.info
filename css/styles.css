@@ -1,3 +1,9 @@
+/*
+	Resources:
+	- https://webdeasy.de/en/top-css-buttons-en/ (buttons)
+	- https://www.svgbackgrounds.com/ (.section backgrounds)
+*/
+
 body {
 	font-family: 'Work Sans', sans-serif;
 	margin: 0;
@@ -44,10 +50,6 @@ h2 {
 	padding-right: 2%;
 }
 
-/*
-	https://webdeasy.de/en/top-css-buttons-en/
-	#6 Thin Buttons
-*/
 .btn {
 	text-decoration: none;
 	color: #fdb37a;
@@ -161,6 +163,7 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	padding-top: 5%;
 }
 .depart-address {
 	width: 45%
@@ -176,6 +179,9 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 5% 0 5% 0;
+	box-shadow: rgb(34, 16, 0) 0px 0px 5px;
+	text-shadow: black 0px 0px 9px;
 }
 .depart-info div {
 	margin: 0;
@@ -203,8 +209,6 @@ h2 {
 	padding-bottom: 0;
 }
 
-
-/* https://www.dyclassroom.com/web-project/design-a-simple-calendar-for-your-blog-and-website-using-html5-css3-and-javascript */
 .calendar-container {
 	width: 75%;
 	display: flex;
@@ -214,28 +218,29 @@ h2 {
 .calendar {
 	width: 230px;
 	height: 140px;
-    background-color: #fff4eb;
-    color: rgb(34,16,0);
-    border-radius: 15%;
+	background-color: #fff4eb;
+	color: rgb(34,16,0);
+	border-radius: 15%;
 	margin-top: 5%;
+	font-weight: bold;
 }
 .calendar > p {
-    font-family: Verdana, Arial, sans-serif;
-    padding: 5px 0;
-    margin: 0;
-    color:rgb(34,16,0);
-    text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	padding: 5px 0;
+	margin: 0;
+	color:rgb(34,16,0);
+	text-align: center;
 }
 .calendar-day {
-    font-size: 16px;
+	font-size: 16px;
 }
 .calendar-month-year {
 	font-size: 14px;
 	padding-bottom: 2%;
 }
 .calendar-date {
-    font-size: 64px;
-    padding-top: 10px;
+	font-size: 64px;
+	padding-top: 10px;
 	padding-bottom: 0;
 	margin: 0;
 }
