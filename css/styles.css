@@ -18,6 +18,13 @@ h2 {
 	font-size: 43px;
 	color: #ffcaa1;
 }
+h3 {
+	font-size: 36px;
+}
+.port-copy > h4 {
+	font-size: 32px;
+	padding-bottom: 5% !important;
+}
 
 .hero {
 	background:
@@ -34,6 +41,10 @@ h2 {
 	align-items: center;
 	height: 100vh;
 	overflow: hidden;
+}
+
+.center-copy {
+	text-align: center;
 }
 
 .top-menu {
@@ -142,16 +153,20 @@ h2 {
 	background-attachment: fixed;
 	background-size: cover;
 }
+#when h3 {
+	padding-top: 5%;
+}
 
 .the-ports {
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 5%;
 }
 .the-ports div {
 	display: flex;
 	flex-direction: row-reverse;
 	width: 100%;
-	height: 250px;
+	height: 300px;
 	justify-content: flex-end;
 	margin-bottom: 5%;
 	margin-top: 5%;
@@ -160,7 +175,9 @@ h2 {
 	display: block;
 	margin: 0;
 	padding: 0;
-	padding-left: 15%;
+	margin-left: 15%;
+	padding-left: 5%;
+	border-left: 3px solid;
 }
 .the-ports div .port-copy h4, p {
 	padding: 0;
@@ -170,6 +187,8 @@ h2 {
 	height: auto;
 	margin: 0 !important;
 	width: 50%;
+	-webkit-box-shadow: -7px 10px 20px -10px #000000;
+	box-shadow: -7px 10px 20px -10px #000000;
 }
 .port-map iframe {
 	width: 100%;
