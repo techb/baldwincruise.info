@@ -3,5 +3,6 @@
 		"flipclock",
 		"horiz",
 		"space"
-	]
+    ],
+    "liveServer.settings.port": 5501
 }
