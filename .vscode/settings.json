@@ -1,8 +1,18 @@
 {
 	"cSpell.ignoreWords": [
-		"flipclock",
-		"horiz",
-		"space"
+        "allowfullscreen",
+        "ccircle",
+        "cdefs",
+        "clinear",
+        "cradial",
+        "crect",
+        "cstop",
+        "csvg",
+        "flipclock",
+        "gradient",
+        "halfmoon",
+        "horiz",
+        "space"
     ],
     "liveServer.settings.port": 5501
 }
