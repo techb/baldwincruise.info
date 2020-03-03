@@ -126,6 +126,7 @@ h3 {
     display: none;
 }
 
+
 .bottom-grad {
     background: rgb(34,16,0);
     background: radial-gradient(ellipse at bottom,
@@ -243,6 +244,13 @@ h3 {
     background-attachment: fixed;
     background-size: cover;
 }
+#more {
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+    background-color: mediumspringgreen;
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
 #what h2 {
     padding-bottom: 0;
 }
@@ -285,6 +293,45 @@ h3 {
     .what-container ul li {
         width: 100%;
     }
+    #more h2 {
+        text-align: center;
+    }
+    #more div.dining, #more div.cellphone {
+        background-color: rgb(38, 204, 121, 0);
+        box-shadow: none;
+    }
+    #more div.dining h3, #more div.cellphone h3 {
+        text-align: center;
+    }
+    #more div.dining ul li, #more div.cellphone ul li {
+        margin-top: 6%;
+        margin-bottom: 6%;
+        padding: 6%;
+    }
+
+    div.inn {
+        font-size: 60px !important;
+    }
+}
+
+#more h2, #more div {
+    color: rgb(34, 16, 0);
+}
+#more .dining, #more .cellphone {
+    background-color: rgb(38, 204, 121, 0.5);
+    padding: 5%;
+    box-shadow: -7px 10px 20px -10px #000000;
+}
+#more .dining ul, #more .cellphone ul {
+    list-style: none;
+    padding-left: 0;
+}
+#more .dining ul li, #more .cellphone ul li {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 2%;
+    box-shadow: -7px 10px 20px -10px #000000;
+    background-color: rgb(35, 182, 109);
 }
 
 .flavor-text {
