@@ -250,10 +250,14 @@ h3 {
     text-align: center;
     margin: 0;
 }
+#what h2 {
+    color: #f8d9c1;
+}
 #what .important-card h3, #what h3 {
     margin: 2%;
     margin-bottom: 0;
     margin-top: 0;
+    color: #f8d9c1;
 }
 #what h3:nth-child(1){
     margin-bottom: 0;
@@ -267,6 +271,20 @@ h3 {
     background-color: #966814;
     padding: 5%;
     box-shadow: -7px 10px 20px -10px #000000;
+    color: #ffeada;
+}
+@media only screen and (max-width: 640px) {
+    .what-container {
+        margin-left: 0 !important;
+        padding-left: 0;
+    }
+    .what-container ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .what-container ul li {
+        width: 100%;
+    }
 }
 
 .flavor-text {
