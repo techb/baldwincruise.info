@@ -17,30 +17,17 @@
 
 <body>
     <section class="hero">
-        <nav id="nav" class="top-menu nav" role="navigation">
-            <ul class="menu-items nav__menu" id="menu" tabindex="-1" aria-label="main navigation" hidden>
-                <li class="menu-when nav__item"><a class="btn nav__link" href="#when">When?</a></li>
-                <li class="menu-where nav__item"><a class="btn nav__link" href="#where">Where?</a class="btn"></li>
-                <li class="menu-what nav__item"><a class="btn nav__link" href="#what">What to bring.</a class="btn"></li>
-                <li class="menu-more nav__item"><a class="btn nav__link" href="#more">More Info.</a class="btn"></li>
+        <div href="#" class="menuBtn">
+            <span class="lines"></span>
+        </div>
+        <nav class="top-menu mainMenu">
+            <ul class="menu-items">
+                <li class="menu-when"><a class="btn" href="#when">When?</a></li>
+                <li class="menu-where"><a class="btn" href="#where">Where?</a class="btn"></li>
+                <li class="menu-what"><a class="btn" href="#what">What to bring.</a class="btn"></li>
+                <li class="menu-more"><a class="btn" href="#more">More Info.</a class="btn"></li>
             </ul>
 
-            <!-- MENU TOGGLE BUTTON -->
-            <a href="#nav" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu">
-                <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                <title>Toggle Menu</title>
-                <g>
-                    <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5"/>
-                    <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
-                    <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
-                    <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
-                    <circle class="menuicon__circle" r="23" cx="25" cy="25" />
-                </g>
-                </svg>
-            </a>
-
-            <!-- ANIMATED BACKGROUND ELEMENT -->
-            <div class="splash"></div>
         </nav>
 
         <div class="hero-copy">
