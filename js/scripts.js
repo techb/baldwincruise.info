@@ -3,7 +3,7 @@ console.log("https://github.com/techb");
 
 
 // https://github.com/objectivehtml/FlipClock
-var date = new Date(2020, 7, 5);
+var date = new Date("July 5 2020");
 var now = new Date();
 var diff = (date.getTime()/1000) - (now.getTime()/1000);
 var clock = $('#timer-container').FlipClock(diff, {
