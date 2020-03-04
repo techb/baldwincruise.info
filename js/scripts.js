@@ -23,6 +23,7 @@ $('.menuBtn').click(function() {
         }
 });
 
+// close menu on menu item select
 $('.top-menu ul li a').click(function() {
     $('.menuBtn').toggleClass('act');
     if($(this).hasClass('act')) {
