@@ -16,6 +16,6 @@ $ git push heroku master
 $ heroku git:remote -a <name-of-app>
 ```
 
-![SplashScreen] (/img/splash_screen.png)
-![When] (/img/when_section.png)
-![MoreInfo] (/img/more_info_section.png)
+![Splash Screen](/img/splash_screen.png)
+![When Section](/img/when_section.png)
+![More Info Section](/img/more_info_section.png)
