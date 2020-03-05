@@ -1,5 +1,5 @@
 # Single Page Site
-[http://baldwincruise.info](http://baldwincruise.info)
+[http://www.baldwincruise.info](http://www.baldwincruise.info)
 
 ## Installation
 
