@@ -15,6 +15,9 @@ $ git push heroku master
 ```sh
 $ heroku git:remote -a <name-of-app>
 ```
+#### Requirements
+- [jQuery](https://jquery.com/)
+- [flipclock.js](https://github.com/objectivehtml/FlipClock)
 
 ![Splash Screen](/img/splash_screen.png)
 ![When Section](/img/when_section.png)
