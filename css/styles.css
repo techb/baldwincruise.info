@@ -566,3 +566,11 @@ h3 {
     margin: 5%;
     width: 80%;
 }
+
+.fancy, .fancy:hover, .fancy:visited {
+    background-color: #ffcaa1;
+    color: rgb(34,16,0);
+    box-shadow: -7px 10px 20px -10px #000000;
+    padding: 2%;
+    display: inline-block;
+}
