@@ -1,11 +1,12 @@
 <html lang="en">
+
 <head>
 
     <script>
         // small hack to redirect http -> https
         // https://medium.com/employbl/https-ssl-on-heroku-with-google-domains-as-dns-provider-c55c438556c6
         var host = "www.baldwincruise.info";
-        if ((host == window.location.host) && (window.location.protocol != "https:")){
+        if ((host == window.location.host) && (window.location.protocol != "https:")) {
             window.location.protocol = "https";
         }
     </script>
@@ -42,21 +43,19 @@
         <div class="hero-copy">
             <h1 class="main-title">Baldwin Cruise 2020!</h1>
             <div id="timer-container" class="countdown-timer"></div>
-            <div id="covid" >
+            <div id="covid">
                 <h2>Covid Cancelation Update</h2>
-                <h3>All Cruises Canceled Up To June 26th</h3>
+                <h3>All Cruises Canceled Up Through <br /> August 31st 2020</h3>
                 <div class="inner-card">
-                    <h4>If <strong>CRUISE LINE</strong> Cancels</h4>
-                    <ul>
-                        <li>100% Refund <strong>OR</strong>Full credit for future cruise</li>
-                    </ul>
-                    <h4>If <strong>YOU</strong> Cancel</h4>
-                    <ul>
-                        <li>90 – 50 Days prior to sail date of 7/5 = 75% Credit</li>
-                        <li>49 – 25 Days = 50% Credit</li>
-                        <li>24 – 12 Days = 25% credit</li>
-                        <li>11 - 0 days = 0 credit</li>
-                    </ul>
+                    <div class="refund-section">
+                        <h4>Option 1</h4>
+                        <p>100% refund</p>
+
+                        <h4>Option 2</h4>
+                        <p>100% Future Cruise Credit</p>
+                        <p>US$600 Onboard Credit Per Stateroom* <br /><span class="covid-together">* on next cruise if
+                                booked by 12/31/2020 <br />for sailing departing by 12/31/2022</span></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -81,18 +80,25 @@
         </div>
         <div class="when-other copy center-copy">
             <h3>Ports</h3>
-            <p>You will want cash if purchasing off the ship. I believe at Nassau anyway it’s like a Flea Market, they aren’t going to have the means of swiping a card.</p>
-            <a href="https://www.carnival.com/itinerary/7-day-eastern-caribbean-cruise/baltimore/pride/7-days/ce0?Military=N&PastGuest=Y&Senior=N&StateCode=VA&abCode=&itinportcode=bwi&numGuests=2&offerCode=&promoCode=&rateCode=&roomType=IS&sailDate=07052020&smp=Y" target="_blank" class="btn fancy">ITINERARY</a>
+            <p>You will want cash if purchasing off the ship. I believe at Nassau anyway it’s like a Flea Market, they
+                aren’t going to have the means of swiping a card.</p>
+            <a href="https://www.carnival.com/itinerary/7-day-eastern-caribbean-cruise/baltimore/pride/7-days/ce0?Military=N&PastGuest=Y&Senior=N&StateCode=VA&abCode=&itinportcode=bwi&numGuests=2&offerCode=&promoCode=&rateCode=&roomType=IS&sailDate=07052020&smp=Y"
+                target="_blank" class="btn fancy">ITINERARY</a>
             <div class="the-ports">
                 <div class="turks">
                     <div class="port-copy">
                         <h4>Grand Turks</h4>
                         <p><em>We will be the only boat there on July 8th!</em></p>
-                        <p>There is no charge to use the pool, beach and loungers. Snorkel Equipment, beach floats and shade “clam shells” can be rented at the Beach Rental Hut on the beach. Private air-conditioned pool cabanas are also available for rent through your cruise line.</p>
-                        <p><a target="_blank" class="btn" href="http://www.grandturkcc.com/Port-Information.aspx">Port Information Website</a></p>
+                        <p>There is no charge to use the pool, beach and loungers. Snorkel Equipment, beach floats and
+                            shade “clam shells” can be rented at the Beach Rental Hut on the beach. Private
+                            air-conditioned pool cabanas are also available for rent through your cruise line.</p>
+                        <p><a target="_blank" class="btn" href="http://www.grandturkcc.com/Port-Information.aspx">Port
+                                Information Website</a></p>
                     </div>
                     <div class="port-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59408.17479231103!2d-71.17484560809295!3d21.468087982099224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb2d67fd58f07c1%3A0x9c4a10061fbc9394!2sGrand%20Turk%20Cruise%20Center!5e0!3m2!1sen!2sus!4v1581985831639!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59408.17479231103!2d-71.17484560809295!3d21.468087982099224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb2d67fd58f07c1%3A0x9c4a10061fbc9394!2sGrand%20Turk%20Cruise%20Center!5e0!3m2!1sen!2sus!4v1581985831639!5m2!1sen!2sus"
+                            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
                 <div class="halfmoon">
@@ -101,11 +107,14 @@
                         <p><em>Looks like we are the only boat to arrive on July 9th!</em></p>
                         <p>This is included in the cruise package along with a buffet lunch.</p>
                         <p>The drink package does <strong>NOT</strong> include drinks at Half Moon Cay.</p>
-                        <p>Umbrellas and chairs are free.  Bring water, sunscreen, towel and $$.</p>
-                        <p><a  target="_blank" class="btn" href="https://www.youtube.com/watch?v=-3uy4bdeI2s">YouTube</a></p>
+                        <p>Umbrellas and chairs are free. Bring water, sunscreen, towel and $$.</p>
+                        <p><a target="_blank" class="btn" href="https://www.youtube.com/watch?v=-3uy4bdeI2s">YouTube</a>
+                        </p>
                     </div>
                     <div class="port-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58053.60810883926!2d-75.96646894867577!3d24.577096957926823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x893042c47ce97625%3A0xb817f511398b8006!2sLittle%20San%20Salvador%20Island!5e0!3m2!1sen!2sus!4v1581985868196!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58053.60810883926!2d-75.96646894867577!3d24.577096957926823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x893042c47ce97625%3A0xb817f511398b8006!2sLittle%20San%20Salvador%20Island!5e0!3m2!1sen!2sus!4v1581985868196!5m2!1sen!2sus"
+                            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
                 <div class="freeport">
@@ -113,11 +122,16 @@
                         <h4>Freeport</h4>
                         <p><em>Looks like we are the only boat to arrive on July 10th!</em></p>
                         <p>This is where you can enjoy the straw market, Senor Frogs and beaches.</p>
-                        <p>Hurricane Dorian changed things here.  I really cannot find a lot; might be the best place for an excursion</p>
-                        <p><a  target="_blank" class="btn" href="https://www.tripadvisor.com/Attractions-g147420-Activities-Freeport_Grand_Bahama_Island_Bahamas.html">TripAdvisor</a></p>
+                        <p>Hurricane Dorian changed things here. I really cannot find a lot; might be the best place for
+                            an excursion</p>
+                        <p><a target="_blank" class="btn"
+                                href="https://www.tripadvisor.com/Attractions-g147420-Activities-Freeport_Grand_Bahama_Island_Bahamas.html">TripAdvisor</a>
+                        </p>
                     </div>
                     <div class="port-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114225.53369083696!2d-78.71430756340992!3d26.534660089692768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8926d81bfcc8179b%3A0x3e427d0387c8dc7d!2sFreeport%2C%20The%20Bahamas!5e0!3m2!1sen!2sus!4v1583363662255!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114225.53369083696!2d-78.71430756340992!3d26.534660089692768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8926d81bfcc8179b%3A0x3e427d0387c8dc7d!2sFreeport%2C%20The%20Bahamas!5e0!3m2!1sen!2sus!4v1583363662255!5m2!1sen!2sus"
+                            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </div>
@@ -127,7 +141,8 @@
     <section id="where" class="section">
         <h2>
             Where?
-            <a class="btn flavor-text" target="_blank" href="https://maps.google.com/maps?ll=39.264843,-76.598476&z=17&t=m&hl=en&gl=US&mapclient=embed&q=2001%20E%20McComas%20St%20Baltimore%2C%20MD%2021230">
+            <a class="btn flavor-text" target="_blank"
+                href="https://maps.google.com/maps?ll=39.264843,-76.598476&z=17&t=m&hl=en&gl=US&mapclient=embed&q=2001%20E%20McComas%20St%20Baltimore%2C%20MD%2021230">
                 2001 E McComas St, Baltimore, 21230, MD
             </a>
         </h2>
@@ -135,15 +150,19 @@
         <div class="depart-port">
             <div class="depart-address">
                 <!-- width="500" height="350" -->
-                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3089.0318875863445!2d-76.60066518463871!3d39.26484307951568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8030b254e1347%3A0xe5564c23676a0bfc!2s2001%20E%20McComas%20St%2C%20Baltimore%2C%20MD%2021230!5e0!3m2!1sen!2sus!4v1579798929489!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3089.0318875863445!2d-76.60066518463871!3d39.26484307951568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8030b254e1347%3A0xe5564c23676a0bfc!2s2001%20E%20McComas%20St%2C%20Baltimore%2C%20MD%2021230!5e0!3m2!1sen!2sus!4v1579798929489!5m2!1sen!2sus"
+                    frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
             <div class="depart-info">
                 <div class="travel-info copy">
                     <h3>Commute Info</h3>
                     <ul>
                         <li><strong>IF you would like to drive to Baltimore the day before (July 4th)</strong></li>
-                        <li>There are hotels that offer the park and ride with one night stay <em>and include continental breakfast</em>.</li>
-                        <li>That means you can leave your vehicle there at the hotel for the length of the cruise and they will shuttle you to and from the port.</li>
+                        <li>There are hotels that offer the park and ride with one night stay <em>and include
+                                continental breakfast</em>.</li>
+                        <li>That means you can leave your vehicle there at the hotel for the length of the cruise and
+                            they will shuttle you to and from the port.</li>
                         <li>MapQuest says it’s about 3 ½ hour drive from Chester VA</li>
                         <li>Will want to allow for potty breaks and that wonderful northern VA traffic</li>
                         <li><strong><em>Not sure of our boarding time yet</em></strong></li>
@@ -155,9 +174,13 @@
                         <li>Parking is <strong>$15 per cruise night</strong></li>
                         <li>I believe we pay when we leave</li>
                         <li>Might want to consider car pooling if possible and sharing the cost</li>
-                        <li>Price for hotel, park and shuttle <strong>$179.00</strong> before taxes which would be <strong>$37.32</strong> for an estimated total of <strong>~$216.32 <br /><em>Park, Sleep, Fly</em></strong></li>
+                        <li>Price for hotel, park and shuttle <strong>$179.00</strong> before taxes which would be
+                            <strong>$37.32</strong> for an estimated total of <strong>~$216.32 <br /><em>Park, Sleep,
+                                    Fly</em></strong></li>
 
-                        <li>Also found one for <strong>$119.00</strong> for <strong>1</strong> night hotel, park car and shuttle <strong>$119.00</strong> before taxes which would be <strong>~$135.67 <br /><em>Park, Sleep, Hotels</em></strong></li>
+                        <li>Also found one for <strong>$119.00</strong> for <strong>1</strong> night hotel, park car and
+                            shuttle <strong>$119.00</strong> before taxes which would be <strong>~$135.67
+                                <br /><em>Park, Sleep, Hotels</em></strong></li>
                     </ul>
                 </div>
             </div>
@@ -166,7 +189,8 @@
 
     <section id="what" class="section">
         <h2>What to bring.</h2>
-        <h3 class="center-copy copy">You can check in online at <a class="btn" href="https://www.carnival.com/" target="_blank" >carnival.com</a></h3>
+        <h3 class="center-copy copy">You can check in online at <a class="btn" href="https://www.carnival.com/"
+                target="_blank">carnival.com</a></h3>
         <h3 class="center-copy copy"><em>(Birth Certificate or Passport still required to board)</em></h3>
         <h3 class="center-copy copy"><em>(This can be a certified copy or original)</em></h3>
         <div class="important-card copy">
@@ -176,10 +200,13 @@
             <ul>
                 <li>Will need your booking number. - Allows you to print out boarding passes, luggage tags, etc.</li>
                 <li>
-                    If checking in online, you will have to indicate whether you will be using a credit/debit card or cash for your Sign/Sail card to be associated with
+                    If checking in online, you will have to indicate whether you will be using a credit/debit card or
+                    cash for your Sign/Sail card to be associated with
                 </li>
-                <li>You are given a card (like a credit card) to use for all purchases on the ship; this card is linked to the credit/debit card you provide (they do not use cash for anything on the ship)</li>
-                <li>If using cash, you will have to go to the main desk on the ship and give them the cash to link to the Sign/Sail card, once the cash has been depleted, you will have to go give them more cash.</li>
+                <li>You are given a card (like a credit card) to use for all purchases on the ship; this card is linked
+                    to the credit/debit card you provide (they do not use cash for anything on the ship)</li>
+                <li>If using cash, you will have to go to the main desk on the ship and give them the cash to link to
+                    the Sign/Sail card, once the cash has been depleted, you will have to go give them more cash.</li>
             </ul>
         </div>
     </section>
@@ -189,18 +216,25 @@
         <div class="dining copy">
             <h3>Dining</h3>
             <ul>
-                <li>We are supposed to be scheduled for the late seating (7 or 8, can’t remember). However, you do <strong>NOT</strong> have to eat in the main dining area. It’s a nice time to regroup with everyone however and plan the next day in case there are people doing the same things!</li>
+                <li>We are supposed to be scheduled for the late seating (7 or 8, can’t remember). However, you do
+                    <strong>NOT</strong> have to eat in the main dining area. It’s a nice time to regroup with everyone
+                    however and plan the next day in case there are people doing the same things!</li>
                 <li>We should be at the same table with the same waiters each night.</li>
                 <li>I think there are two (2) formal nights.</li>
-                <li>You don’t have to dress in formal attire; however, most will wear at least a shirt/tie for men and nice dress or pant suit for ladies. Some people go all out</li>
-                <li>Usually in the main dining area they prefer there not be any shorts and t-shirts. Khakis for guys with nice shirts, sundresses or what have you for ladies.</li>
+                <li>You don’t have to dress in formal attire; however, most will wear at least a shirt/tie for men and
+                    nice dress or pant suit for ladies. Some people go all out</li>
+                <li>Usually in the main dining area they prefer there not be any shorts and t-shirts. Khakis for guys
+                    with nice shirts, sundresses or what have you for ladies.</li>
             </ul>
         </div>
         <div class="cellphone copy">
             <h3>Cell phone plan/service</h3>
             <ul>
-                <li>Check with your cell phone vendor/dealer to see about charges for texting or calling or being on the internet while on the cruise. You don’t want to have your phone roaming and come back to a crazy bill ;)</li>
-                <li>Verizon rep said for mine, I can put it on airport mode which will keep any texts or calls from coming in, but I could still use the camera function.</li>
+                <li>Check with your cell phone vendor/dealer to see about charges for texting or calling or being on the
+                    internet while on the cruise. You don’t want to have your phone roaming and come back to a crazy
+                    bill ;)</li>
+                <li>Verizon rep said for mine, I can put it on airport mode which will keep any texts or calls from
+                    coming in, but I could still use the camera function.</li>
                 <li>Google Fi, nothing is required for international use. You are good to go!</li>
             </ul>
         </div>
@@ -209,4 +243,5 @@
 </body>
 
 <script type="text/javascript" src="/js/scripts.js"></script>
+
 </html>
