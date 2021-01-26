@@ -1,5 +1,5 @@
 # Single Page Site
-[https://www.baldwincruise.info](https://www.baldwincruise.info)
+~~https://www.baldwincruise.info~~ Offline
 
 ## Installation
 
